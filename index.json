@@ -1,0 +1,25 @@
+{
+  "games": [
+    {
+      "id": "aqua",
+      "name": "Aqua",
+      "version": "1.0.0",
+      "description": "水族箱模擬遊戲",
+      "download_url": "https://mzeslov.github.io/pico-games/aqua.uf2"
+    },
+    {
+      "id": "rb",
+      "name": "Red Battle",
+      "version": "1.0.0",
+      "description": "紅色戰鬥機射擊遊戲",
+      "download_url": "https://mzeslov.github.io/pico-games/RB.uf2"
+    },
+    {
+      "id": "rt",
+      "name": "Retro Tower",
+      "version": "1.0.0",
+      "description": "復古風塔防遊戲",
+      "download_url": "https://mzeslov.github.io/pico-games/RT.uf2"
+    }
+  ]
+}
