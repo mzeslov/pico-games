@@ -3,22 +3,22 @@
     {
       "id": "aqua",
       "name": "Aqua",
-      "version": "1.0.0",
-      "description": "水族箱模擬遊戲",
+      "version": "0.1.31.1",
+      "description": "專注水族箱",
       "download_url": "https://mzeslov.github.io/pico-games/aqua.uf2"
     },
     {
       "id": "rb",
       "name": "Rabbit",
-      "version": "1.0.0",
-      "description": "紅色戰鬥機射擊遊戲",
+      "version": "0.9.36.10",
+      "description": "兔子工人",
       "download_url": "https://mzeslov.github.io/pico-games/RB.uf2"
     },
     {
       "id": "rt",
       "name": "Red Tour",
-      "version": "1.0.0",
-      "description": "復古風塔防遊戲",
+      "version": "0.1.37.0",
+      "description": "紅狐遊旅",
       "download_url": "https://mzeslov.github.io/pico-games/RT.uf2"
     }
   ]
