@@ -9,14 +9,14 @@
     },
     {
       "id": "rb",
-      "name": "Red Battle",
+      "name": "Rabbit",
       "version": "1.0.0",
       "description": "紅色戰鬥機射擊遊戲",
       "download_url": "https://mzeslov.github.io/pico-games/RB.uf2"
     },
     {
       "id": "rt",
-      "name": "Retro Tower",
+      "name": "Red Tour",
       "version": "1.0.0",
       "description": "復古風塔防遊戲",
       "download_url": "https://mzeslov.github.io/pico-games/RT.uf2"
