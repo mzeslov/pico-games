@@ -1,11 +1,5 @@
 {
-  "name": "RB",
-  "version": "1.0.5",
-  "entry": "RB.tscn",
-  "files": [
-    "RB.tscn",
-    "RB.gd",
-    "assets/icon.png"
-  ],
-  "game_version": ">=1.1.0"
+  "RB": "https://mzeslov.github.io/pico-games/modules/RB/manifest.json",
+  "GG": "https://yourpage.github.io/modules/GG/manifest.json",
+  "MK": "https://yourpage.github.io/modules/MK/manifest.json"
 }
