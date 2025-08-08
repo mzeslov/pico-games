@@ -1,0 +1,10 @@
+{
+  "name": "RB",
+  "version": "1.0.3",
+  "entry": "RB.tscn",
+  "files": [
+    "RB.tscn",
+    "RB.gd",
+    "assets/icon.png"
+  ]
+}
