@@ -4,7 +4,6 @@
   "entry": "RB.tscn",
   "files": [
     "RB.tscn",
-    "RB.gd",
-    "assets/icon.png"
+    "RB.gd"
   ]
 }
