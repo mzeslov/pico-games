@@ -1,0 +1,31 @@
+[gd_scene load_steps=2 format=3 uid="uid://btb7s2ud2wbrf"]
+
+[ext_resource type="Script" uid="uid://bxyv5mcf8xp78" path="res://Modules/button.gd" id="1_ojw0i"]
+
+[node name="Mod_rb" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 304.0
+offset_top = 192.0
+offset_right = 417.0
+offset_bottom = 215.0
+text = "Rabbit Module:
+VER:1.0.1"
+
+[node name="btnBackHome" type="Button" parent="."]
+layout_mode = 0
+offset_left = 504.0
+offset_top = 424.0
+offset_right = 696.0
+offset_bottom = 488.0
+text = "回到主控台"
+script = ExtResource("1_ojw0i")
+
+[connection signal="pressed" from="btnBackHome" to="btnBackHome" method="_on_pressed"]
