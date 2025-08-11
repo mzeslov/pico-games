@@ -1,17 +1,17 @@
 {
   "RB":{
     "manifest": "https://mzeslov.github.io/pico-games/modules/RB/manifest.json",
-    "version": "1.0.1",
-    "game_version": "1.0.0"
+    "version": "0.1.0.1",
+    "game_version": "0.1.0.0"
   },
   "AQ":{
     "manifest": "https://mzeslov.github.io/pico-games/modules/AQ/manifest.json",
-    "version": "1.0.0",
-    "game_version": "1.0.0"
+    "version": "0.1.0.0",
+    "game_version": "0.1.0.0"
   },
   "RT":{
     "manifest": "https://mzeslov.github.io/pico-games/modules/RT/manifest.json",
-    "version": "1.0.1",
-    "game_version": "1.0.0"
+    "version": "0.1.0.1",
+    "game_version": "0.1.0.0"
   }
 }
