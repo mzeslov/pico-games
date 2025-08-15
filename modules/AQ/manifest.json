@@ -1,0 +1,8 @@
+{
+  "name": "AQ",
+  "version": "0.1.0.1",
+  "entry": "mod.AQ.tscn",
+  "files": [
+    "mod_aq_test.pck",
+  ]
+}
