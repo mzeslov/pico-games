@@ -1,9 +1,8 @@
 {
   "name": "RB",
-  "version": "0.1.0.1",
-  "entry": "RB.tscn",
+  "version": "0.1.0.2",
+  "entry": "mod.RB.tscn",
   "files": [
-    "RB.tscn",
-    "RB.gd"
+    "mod_rb_test.pck",
   ]
 }
