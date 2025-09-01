@@ -1,21 +1,24 @@
 {
   "games": [
     {
-      "id": "aqua",
-      "name": "Aqua",
+      "gameId": "2",
+      "id": "AQ",
+      "name": "Aquarium",
       "version": "0.1.31.1",
       "description": "專注水族箱",
       "download_url": "https://mzeslov.github.io/pico-games/aqua.uf2"
     },
     {
-      "id": "rb",
+      "gameId": "1",
+      "id": "RB",
       "name": "Rabbit",
       "version": "0.9.36.10",
       "description": "兔子工人",
       "download_url": "https://mzeslov.github.io/pico-games/RB.uf2"
     },
     {
-      "id": "rt",
+      "gameId": "3",
+      "id": "RT",
       "name": "Red Tour",
       "version": "0.1.37.0",
       "description": "紅狐遊旅",
@@ -23,3 +26,4 @@
     }
   ]
 }
+
