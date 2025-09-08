@@ -1,6 +1,6 @@
 {
   "name": "RT",
-  "version": "0.1.39.0",
+  "version": "0.1.0.1",
   "entry": "mod.RT.tscn",
   "files": [
     "mod_rt.pck",
