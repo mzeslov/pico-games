@@ -3,28 +3,28 @@
   "last_updated": "2025-09-01T17:17:00Z",
   "games": [
     {
-      "gameId": "2",
-      "id": "AQ",
-      "name": "Aquarium",
-      "version": "0.1.31.1",
-      "description": "專注水族箱",
-      "download_url": "https://mzeslov.github.io/pico-games/aqua.uf2"
-    },
-    {
       "gameId": "1",
       "id": "RB",
       "name": "Rabbit",
       "version": "0.9.36.10",
       "description": "兔子工人",
-      "download_url": "https://mzeslov.github.io/pico-games/RB.uf2"
+      "download_url": "https://mzeslov.github.io/pico-games/uf2/RB.uf2"
+    },
+    {
+      "gameId": "2",
+      "id": "AQ",
+      "name": "Aquarium",
+      "version": "0.1.31.1",
+      "description": "專注水族箱",
+      "download_url": "https://mzeslov.github.io/pico-games/uf2/aqua.uf2"
     },
     {
       "gameId": "3",
       "id": "RT",
       "name": "Red Tour",
-      "version": "0.1.37.0",
+      "version": "0.1.39.0",
       "description": "紅狐遊旅",
-      "download_url": "https://mzeslov.github.io/pico-games/RT.uf2"
+      "download_url": "https://mzeslov.github.io/pico-games/uf2/RT.uf2"
     }
   ]
 }
