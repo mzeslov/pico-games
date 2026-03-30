@@ -32,3 +32,19 @@ VER:
 		1.導入pcb.c的KeyArray, SW_Handler()需要在main.cpp中根據遊戲需要實作, _pcb/pcb.c中放置__attribute__((weak))定義函數,目前實現等同手把左,右,A,B鍵單功能。
 	2026.3.24
 		2.加入HID命令 BB-30, 清除遊戲紀錄
+
+0_2_1_4
+	2026.3.24
+		1.setting Page 遙控加設過濾值,改善IR太靈敏造成瞬間重複發射
+		2.抑制tud_hid_set_report_cb的接收printf傾印
+
+0_2_1_4 Combo (3in1版) 開頭地址為0x10600000
+
+
+0_2_2_1 Combo
+	2026.3.27
+		1.加入reset_to_BTLR功能, 用遙控器同時按上+START 跳回BTLR開機程式
+
+0_2_3_1 Combo
+	2026.3.27
+		1.RT的RTC_RAM遊戲存檔ID改正為03
