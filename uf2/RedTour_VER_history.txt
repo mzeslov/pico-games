@@ -48,3 +48,9 @@ VER:
 0_2_3_1 Combo
 	2026.3.27
 		1.RT的RTC_RAM遊戲存檔ID改正為03
+
+0_2_3_2 Combo
+	2026.3.30
+		1. 修正Homepage 的提示 INTERACT [B] 的字體
+		2. 調整SettingPage上下的速度
+		3. 調整redrawMENU()的底色與ICOstar的顏色,提升對比效果
