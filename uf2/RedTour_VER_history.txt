@@ -1,20 +1,46 @@
 VER:
-0_1_41_0
-0_1_41_1
-	2026.3.10
-		1. Terminal 除錯命令增加 R:格式化RTC_RAM, E:清除遊戲記錄 
-		2. HID 命令增加 BB-03, 呼叫rtc_init_ram()
+0_2_3_5 Combo
+	2026.4.8
+		1. 修正實體按鍵支援 AB, LAB, RAB組合鍵。
+		2. 修正TOUR模式中, 支援手把輸入 '上+START'回BTLR。
 
-0_1_41_2
-	2026.3.13
-		1.增加JH_RTC.cpp中 lv_score[5] (line 44) 資料位元代表的意義的註解文字
-		2.修改初始值為0
+0_2_3_4 Combo
+	2026.4.7
+		1. 修正實體按鍵L,R功能
+		2. 修正TOUR模式中,X鍵為暫停。
+		3. 修正TOUR模式中,各種UI選單左右鍵的次數過濾,防止移動太快。
+		4. 實體按鍵取樣包含 L,R,A,B, LA/LB/RA/RB, AB/LAB/RAB 等各種組合,但是似乎太耗資源而影響顯示效果, 畫面有時會出現閃爍現象。 
 
-0_2_1_1
-	2026.3.16
-		1.導入SIRC.h/cpp於/src目錄, 移除NEC碼的IR接收。
-		2.修改main.cpp 中, 有關IR接收的部分,以及GAMEPAD_HANDLE()函數的IR解碼,修改選單計次過濾參數。
-		3.修改tour.cpp 中, 有關LoopTour1()的IR解碼。
+0_2_3_3 Combo
+	2026.4.1
+		1. 實作SOURCE KEY 切換訊號來源
+
+0_2_3_2 Combo
+	2026.3.30
+		1. 修正Homepage 的提示 INTERACT [B] 的字體
+		2. 調整SettingPage上下的速度
+		3. 調整redrawMENU()的底色與ICOstar的顏色,提升對比效果
+
+0_2_3_1 Combo
+	2026.3.27
+		1.RT的RTC_RAM遊戲存檔ID改正為03
+
+0_2_2_1 Combo
+	2026.3.27
+		1.加入reset_to_BTLR功能, 用遙控器同時按上+START 跳回BTLR開機程式
+
+0_2_1_4 Combo (3in1版) 開頭地址為0x10600000
+
+0_2_1_4
+	2026.3.24
+		1.setting Page 遙控加設過濾值,改善IR太靈敏造成瞬間重複發射
+		2.抑制tud_hid_set_report_cb的接收printf傾印
+
+0_2_1_3
+	2026.3.19
+		1.導入pcb.c的KeyArray, SW_Handler()需要在main.cpp中根據遊戲需要實作, _pcb/pcb.c中放置__attribute__((weak))定義函數,目前實現等同手把左,右,A,B鍵單功能。
+	2026.3.24
+		2.加入HID命令 BB-30, 清除遊戲紀錄
 
 0_2_1_2
 	2026.3.16
@@ -27,30 +53,28 @@ VER:
 		  	bullet1.cpp / .bmp , bullet2.cpp / .bmp
 		3.修改tour.cpp 的 LoopTour1()中, UI_PUASE,UI_COMPLETE,UI_OOPS 選單左右鍵計次過濾參數。
 
-0_2_1_3
-	2026.3.19
-		1.導入pcb.c的KeyArray, SW_Handler()需要在main.cpp中根據遊戲需要實作, _pcb/pcb.c中放置__attribute__((weak))定義函數,目前實現等同手把左,右,A,B鍵單功能。
-	2026.3.24
-		2.加入HID命令 BB-30, 清除遊戲紀錄
 
-0_2_1_4
-	2026.3.24
-		1.setting Page 遙控加設過濾值,改善IR太靈敏造成瞬間重複發射
-		2.抑制tud_hid_set_report_cb的接收printf傾印
-
-0_2_1_4 Combo (3in1版) 開頭地址為0x10600000
+0_2_1_1
+	2026.3.16
+		1.導入SIRC.h/cpp於/src目錄, 移除NEC碼的IR接收。
+		2.修改main.cpp 中, 有關IR接收的部分,以及GAMEPAD_HANDLE()函數的IR解碼,修改選單計次過濾參數。
+		3.修改tour.cpp 中, 有關LoopTour1()的IR解碼。
 
 
-0_2_2_1 Combo
-	2026.3.27
-		1.加入reset_to_BTLR功能, 用遙控器同時按上+START 跳回BTLR開機程式
+0_1_41_2
+	2026.3.13
+		1.增加JH_RTC.cpp中 lv_score[5] (line 44) 資料位元代表的意義的註解文字
+		2.修改初始值為0
 
-0_2_3_1 Combo
-	2026.3.27
-		1.RT的RTC_RAM遊戲存檔ID改正為03
+0_1_41_0
+0_1_41_1
+	2026.3.10
+		1. Terminal 除錯命令增加 R:格式化RTC_RAM, E:清除遊戲記錄 
+		2. HID 命令增加 BB-03, 呼叫rtc_init_ram()
 
-0_2_3_2 Combo
-	2026.3.30
-		1. 修正Homepage 的提示 INTERACT [B] 的字體
-		2. 調整SettingPage上下的速度
-		3. 調整redrawMENU()的底色與ICOstar的顏色,提升對比效果
+
+
+
+
+
+
