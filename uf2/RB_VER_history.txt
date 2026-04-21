@@ -1,4 +1,16 @@
 VER:
+0_10_2_4_COMBO_TEST
+	2026.4.20
+		1. 修正Bunny操作PC時LADYBUG動畫後對話框消除時回補背景圖片位置錯誤。
+
+0_10_2_3_COMBO_TEST
+	2026.4.20
+		1. 加入靜音按鍵功能，以及其對應畫面的所有設定變化。
+		2. 修正BunnyMap狀態,應該禁止右鍵操作。
+		3. BMapOn時,必須維持WaitVSync和soundEngine呼叫,
+		   以避免老鼠出現時音效會卡住,造成死機.
+		4. 已將Game.BMapOn變數整合到Game.GenericFLAG的BIT6,即使是只有1BIT也節省一個算一個。
+
 0_10_2_2_COMBO_TEST
 	2026.4.18
 		1. 音效的測試版本
