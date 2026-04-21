@@ -2,6 +2,7 @@ VER:
 0_10_2_5_COMBO_TEST
 	2026.4.21
 		1. 在Room3A(鍋蓋)和Room4(風扇)房間的Leave()函數中加入WaitVSyncTUD(),期待避免core1讀取而造成free失敗,進而降低亂碼現象。
+		2. 擴大做法到Room1,Room2,Room3,Room5,Room6
 
 0_10_2_4_COMBO_TEST
 	2026.4.20
