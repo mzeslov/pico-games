@@ -1,4 +1,8 @@
 VER:
+0_10_2_5_COMBO_TEST
+	2026.4.21
+		1. 在Room3A(鍋蓋)和Room4(風扇)房間的Leave()函數中加入WaitVSyncTUD(),期待避免core1讀取而造成free失敗,進而降低亂碼現象。
+
 0_10_2_4_COMBO_TEST
 	2026.4.20
 		1. 修正Bunny操作PC時LADYBUG動畫後對話框消除時回補背景圖片位置錯誤。
