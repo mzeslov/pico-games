@@ -1,4 +1,20 @@
 VER:
+0_10_2_8_COMBO_TEST
+	2026.4.28
+		1. 近2天來MUTE行為都不太正常,發現main需要加nMUTE_state = gpio_get(nMUTE_PIN); 否則
+			nMUTE_Handler會誤觸發,造成邏輯錯誤。
+
+0_10_2_7_COMBO_TEST
+	2026.4.27
+		1. 加入Mute記憶
+
+
+0_10_2_6_COMBO_TEST
+	2026.4.22
+		1. 在pwmsndx.cpp中加入pwm_soft_start,減少開機爆音
+		2. 加入進入遊戲時的開場音效
+
+
 0_10_2_5_COMBO_TEST
 	2026.4.21
 		1. 在Room3A(鍋蓋)和Room4(風扇)房間的Leave()函數中加入WaitVSyncTUD(),期待避免core1讀取而造成free失敗,進而降低亂碼現象。
