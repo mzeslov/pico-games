@@ -1,4 +1,10 @@
 GX_BTLR_3in1 VER:
+0_1_0_15
+	2026.5.5
+		1. 增加了設定頁面,利用手把'Y'進入 setting Page
+		2. setting Page裡 可切換DEMO MODE
+		3. 選擇Back退出時存檔 
+
 0_1_0_14
 	2026.5.4
 		2. 支援遊戲4的轉跳
