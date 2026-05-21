@@ -1,4 +1,18 @@
 VER:
+0_2_2_19 Combo
+	2026.5.21
+		1. 加入BB13, BB14的HID命令, 用來存取MIC閾值
+
+0_2_2_18 Combo
+	2026.5.20
+		1. 提取新的0xFE的MIC THERS 值
+		2. 修正DEMO MODE中錯誤文字輸出
+		3. 修正rtc_init_ram()內無謂的檢查導致略過初始化
+
+0_2_2_17 Combo
+	2026.5.19
+		1. 歌曲更新
+
 0_2_2_16 Combo
 	2026.5.12
 		1. 試作DEMO MODE中, 輸入觸發DEMO PAUSE, 暫定PAUSE1分鐘內沒有新輸入則重啟DEMO模式。
