@@ -1,7 +1,12 @@
 VER:
+0_2_4_1 Combo
+	2026.5.21
+		1. 開始導入DEMO腳本,先建立框架
+
 0_2_3_13 Combo
 	2026.5.12
 		1. 試作DEMO MODE中, 輸入觸發DEMO PAUSE, 暫定PAUSE1分鐘內沒有新輸入則重啟DEMO模式。
+		2. 修正rtc_init_ram()內無謂的檢查導致略過初始化
 
 0_2_3_12 Combo
 	2026.5.10
